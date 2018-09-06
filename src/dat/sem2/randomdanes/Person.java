@@ -7,25 +7,25 @@ package dat.sem2.randomdanes;
  * @author kasper
  */
 class Person {
-    private final String navn;
-    private final String tlf;
+    private final String name;
+    private final String phone;
 
     public Person(String name, String phoneNo) {
-        this.navn = name;
-        this.tlf = phoneNo;
+        this.name = name;
+        this.phone = phoneNo;
     }
 
     public String getName() {
-        return navn;
+        return name;
     }
 
     public String getPhoneNo() {
-        return tlf;
+        return phone;
     }
 
     @Override
     public String toString() {
-        return navn + " ph: " + tlf;
+        return name + " ph: " + phone;
     }
     
 }
