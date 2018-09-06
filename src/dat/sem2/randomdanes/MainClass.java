@@ -1,7 +1,5 @@
 package dat.sem2.randomdanes;
 
-
-
 import java.util.List;
 
 /**
