@@ -9,7 +9,7 @@ import java.util.List;
 public class MainClass {
     
     public static void main( String[] args ) {
-        int numberOfDanes = 20; // default 
+        int numberOfDanes = 20;
         if ( args.length > 0 ) {
             try {numberOfDanes = Integer.parseInt( args[0]);} 
             catch (NumberFormatException ex){}
