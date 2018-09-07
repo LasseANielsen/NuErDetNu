@@ -39,7 +39,7 @@ public final class PersonGenerator {
         int second = rnd.nextInt(100);
         int third = rnd.nextInt(100);
         int forth = rnd.nextInt(100);
-        return String.format("%02d%02d-%02d%02d", first, second, third, forth);
+        return String.format("%02d %02d %02d %02d", first, second, third, forth);
     }
 
 
